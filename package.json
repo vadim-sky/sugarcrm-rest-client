@@ -1,0 +1,33 @@
+{
+  "name": "sugarcrm-client",
+  "version": "0.0.1",
+  "description": "The SugarCRM (v6.5) Rest client ",
+  "main": "index.js",
+  "author": "vadim-SKY",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadim-sky/sugarcrm-rest-client.git"
+  },
+  "keywords": [
+    "SugarCRM",
+    "SugarCRM Rest API"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "bin": { "sugarcrm-client": "./bin/sugarcrm" },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "express": "^4.13.4",
+    "grunt": "^0.4.5",
+    "q": "^1.4.1",
+    "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "debug": "^2.2.0"
+  }
+}
