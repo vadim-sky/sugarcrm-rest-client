@@ -20,7 +20,7 @@ var init = function (initArray) {
     apiURL = initArray.apiURL;
     login =  initArray.login;
     passwd = initArray.passwd;
-}
+};
 exports.init = init;
 
 
@@ -32,7 +32,7 @@ var configInfo = function (initArray) {
         ,login : login
         ,passwd : passwd
     }
-}
+};
 exports.configInfo = configInfo;
 
 
